@@ -1,0 +1,97 @@
+#01 - Discover Design, Create Project, Add Tools
+
+  [1] Open Design Template as Picture or PSD
+
+  [2] Create Files and Floders
+      - index.html
+      - css/
+        -- style.css
+        -- normalize.css
+        -- all.min.css // Fontawsome Library
+      - images/ 
+        -- All used images
+
+
+#02 - Create Containers And Add Font Icons
+
+  [1] Create a Container inside the main Div to center Content Horizontally
+        Ex: HTML
+          <div class="parent">
+            <div class="container"> // has width, margin, padding
+              Text
+            </div>
+          </div>
+
+  [2] Add MediaQueries to make the design responsive for Small, Medium, Large
+        Ex: CSS
+          .container {
+            background-color: #eee;
+            margin: 0 auto;
+            padding: 0 15px;
+          }
+          /* Small */ 
+          @media (min-width: 768px) {
+            .container {
+              width: 750px;
+            }
+          }
+          /* Medium */ 
+          @media (min-width: 992px) {
+            .container {
+              width: 970px;
+            }
+          }
+          /* Large */ 
+          @media (min-width: 1200px) {
+            .container {
+              width: 1170px;
+            }
+          }
+
+
+#03 #04 - Create Header And Links Part 1, Part 2
+
+
+#05 - Create Landing Section
+
+
+#06 - Create Features Section
+  
+       you can use in css:
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+        
+    or  display: grid;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+
+#07#08 - Create Services Section Part 1, Part 2
+      - usign grid to divided Services in columns
+      - using flex to distribute i and text 
+
+
+#09 - Create Portfolio Section
+    - usign grid to divided Services in columns
+
+
+ #10 - Create About Section Part 1
+    - using flex to distribute about-Content
+    - to write L using border-left, border-bottom after giving the Element width and height
+
+
+#11 - Create About Section Part 2
+    - in Small Screen, Hide image::before , image::after
+    - in Small Screen, then make image center with a suitable size and text center full screen
+
+
+#12 - Create Contact Section And Footer
+
+
+#13 - Improve Code And Add Scrolling
+    - using CSS Variables for most used repeated value
+    - Create Components or your own framework for repeated Element Style
+    
+
+#14 - Upload To Github And Create Live Demo
